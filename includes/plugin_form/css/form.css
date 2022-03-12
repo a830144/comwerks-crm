@@ -1,0 +1,15 @@
+
+.ucm-modal-popup.no-buttons .modal-footer{
+    display:none;
+}
+ul.ui-autocomplete.ui-menu {
+    z-index: 2000;
+    max-height: 250px;
+    overflow-y: auto;
+    /* prevent horizontal scrollbar */
+    overflow-x: hidden;
+}
+.ui-datepicker {
+    /* so it works in modal popups */
+    z-index: 1080 !important;
+}
